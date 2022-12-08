@@ -15,7 +15,7 @@ type Client struct {
 	HTTPClient 	*http.Client
 }
 
-func NewClient(apiKey: string) *Client {
+func NewClient(apiKey string) *Client {
 	return &Client{
 		BaseURL: BaseURL,
 		apiKey: apiKey,
