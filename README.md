@@ -5,10 +5,13 @@ Control locks, lights, and other internet of things devices with Seam's simple A
 ## Setup
 ```sh
 go get github.com/iamwacko/seamapi-go
+go mod tidy
 ```
 
 ## Usage
 ```go
+import "github.com/iamwacko/seamapi-go/api"
+
 func main() {
 }
 ```
